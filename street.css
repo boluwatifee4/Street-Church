@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Permanent+Marker&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 187, 0);
+}
+header{
+    font-family: 'Permanent Marker', cursive;
+    margin: 1rem;
+}
+.logo{
+    width: 5%;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1rem;
+    padding:2rem 4rem;
+}
+.item{
+    font-family: 'Fira Sans', sans-serif;
+    padding:4rem 2rem;
+    width: 60%;
+    margin: 2rem ;
+    background-color: rgb(63, 61, 61);
+    color: white ;
+    border-radius: 1rem;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.item {
+    font-size: 2rem;
+}
+.item p{
+    margin: 1rem;
+}
+input{
+    display: none;
+}
+.s{
+    position: absolute;
+}
+.rosary{
+    left: 50%;
+    top: 50%;
+}
+.church{
+    width: 10%;
+    left: 80%;
+    top: 10%;
+}
+.pray{
+    top: 170%;
+}
+.bible{
+    top: 280%;
+    left: 70%;
+}
+.asset{
+    top: 350%;
+    left: 5%;
+}
+@media only  screen  and (max-width:1024px) and (min-width:280px){
+    .logo{
+        width: 20%;
+    }
+    .log h1{
+        font-size: 1rem;
+    }
+    .s{
+        
+        width: 40%;
+    }
+    .rosary{
+        left: 50%;
+        top: 47%;
+    }
+    .church{
+        left: 60%;
+        top: 10%;
+    }
+    .pray{
+        top: 140%;
+    }
+    .bible{
+        top: 220%;
+        left: 60%;
+    }
+    .asset{
+        top: 302%;
+        left: 5%;
+    }
+    .wrapper{
+        padding: .5rem;
+        margin: .5rem;
+    }
+    .item{
+        width: 85%;
+        margin: 2rem 0;
+        padding: 4rem 1rem;
+        font-size: 1rem;
+
+    }
+    .item p{
+        margin: 1rem 0;
+    }
+    
+
+}
+
